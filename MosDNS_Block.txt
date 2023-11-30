@@ -1,3 +1,7 @@
+#日产智联广告
+cdnvitfile.venucia.com
+vectormap0.bdimg.com
+errlog.umeng.com
 #避免迅雷版权问题
 hub5idx.v6.shub.sandai.net
 hub5emu.v6.shub.sandai.net
@@ -7,13 +11,15 @@ update.synology.com
 update7.synology.com
 autoupdate7.synology.com
 autoupdate7.synology.cn
-#屏蔽macOS和ios更新
+#屏蔽ios更新
+gdmf.apple.com
+mesu.apple.com
+#绕过企业证书过期
+ocsp.apple.com
+#屏蔽Macos更新
 swscan.apple.com
 swcdn.apple.com
 swdist.apple.com
-mesu.apple.com
-gdmf.apple.com
-ocsp.apple.com
 #屏蔽Google Chrome更新
 tools.google.com
 #屏蔽parallels更新
