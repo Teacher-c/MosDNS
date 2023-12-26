@@ -11,15 +11,16 @@ update.synology.com
 update7.synology.com
 autoupdate7.synology.com
 autoupdate7.synology.cn
+#绕过Apple企业证书过期
+ocsp.apple.com
 #屏蔽ios更新
 gdmf.apple.com
 mesu.apple.com
-#绕过企业证书过期
-ocsp.apple.com
-#屏蔽Macos更新
+#屏蔽macOS更新
 swscan.apple.com
-swcdn.apple.com
 swdist.apple.com
+xp.apple.com
+#swcdn.apple.com #optional, download url
 #屏蔽Google Chrome更新
 tools.google.com
 #屏蔽parallels更新
