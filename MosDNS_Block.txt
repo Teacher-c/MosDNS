@@ -6,11 +6,6 @@ errlog.umeng.com
 hub5idx.v6.shub.sandai.net
 hub5emu.v6.shub.sandai.net
 hub5btmain.v6.shub.sandai.net
-#屏蔽群晖系统更新
-update.synology.com
-update7.synology.com
-autoupdate7.synology.com
-autoupdate7.synology.cn
 #绕过Apple企业证书过期
 ocsp.apple.com
 #屏蔽ios更新
@@ -23,6 +18,13 @@ xp.apple.com
 #swcdn.apple.com #optional, download url
 #屏蔽Google Chrome更新
 tools.google.com
+#屏蔽Xmind更新
+dl2.xmind.com
+#屏蔽群晖系统更新
+update.synology.com
+update7.synology.com
+autoupdate7.synology.com
+autoupdate7.synology.cn
 #屏蔽parallels更新
 myparallels.com
 parallels.cn
@@ -35,5 +37,3 @@ parallels.pt
 parallels.ru
 parallelskorea.com
 parallels.com.cdn.cloudflare.net
-#屏蔽Xmind更新
-dl2.xmind.com
