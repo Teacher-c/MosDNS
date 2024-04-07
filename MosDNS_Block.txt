@@ -18,6 +18,7 @@ xp.apple.com
 #swcdn.apple.com #optional, download url
 #屏蔽Google Chrome更新
 tools.google.com
+update.googleapis.com
 #屏蔽Xmind更新
 dl2.xmind.com
 #屏蔽群晖系统更新
