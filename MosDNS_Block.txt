@@ -38,5 +38,3 @@ parallels.pt
 parallels.ru
 parallelskorea.com
 parallels.com.cdn.cloudflare.net
-baidu.com
-www.baidu.com
