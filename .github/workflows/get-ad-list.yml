@@ -1,0 +1,24 @@
+name: get-ad-list
+
+# 定义触发器，定期执行此工作流
+on:
+  schedule:
+    - cron: '0 0 */7 * *'  # 每天午夜运行一次
+  workflow_dispatch:  # 手动触发
+
+jobs:
+  update-file:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 检出代码仓库
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # 拉取远程文件
+    - name: Download conf file
+      run: |
+        curl -o my_ad.txt https://raw.githubusercontent.com/Teacher-c/MosDNS_AD/refs/heads/main/MosDNS_Block.txt
+        curl -o anti-ad.txt https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/anti-ad-domains.txt
+        cat my_ad.txt >> anti-ad.txt
+        sed -i '/^#/d' anti-ad.txt
