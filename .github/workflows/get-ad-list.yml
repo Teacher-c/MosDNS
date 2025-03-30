@@ -24,7 +24,7 @@ jobs:
     # 使用 sed 命令修改文件
     - name: Modify file
       run: |
-        sed -i sed '/^[!#]/d; /^\s*$/d; s/||//g; s/\^//g' Advertising.txt
+        sed -i '/^[!#]/d; /^\s*$/d; s/||//g; s/\^//g' Advertising.txt
         sed -i '/^#/d' my_ad.txt
         cat my_ad.txt >> Advertising.txt
         
