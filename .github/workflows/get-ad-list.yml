@@ -20,16 +20,20 @@ jobs:
       run: |
         curl -o my_ad.txt https://raw.githubusercontent.com/Teacher-c/MosDNS_AD/refs/heads/main/MosDNS_Block.txt
         curl -o Advertising.txt https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/AdGuard/Advertising/Advertising.txt
-        curl -o Apple.txt https://raw.githubusercontent.com/Teacher-c/Qx/refs/heads/main/apple_no_cdn.list
+        curl -o Apple_no_cdn.txt https://raw.githubusercontent.com/Teacher-c/Qx/refs/heads/main/apple_no_cdn.list
+        curl -o MyDirect.txt https://raw.githubusercontent.com/Teacher-c/clash/refs/heads/main/MyDirect.conf
     
     # 使用 sed 命令修改文件
     - name: Modify file
       run: |
         sed -i '/^[!#]/d; /^\s*$/d; s/||//g; s/\^//g' Advertising.txt
         sed -i '/^#/d' my_ad.txt
-        sed -i 's/DOMAIN-SUFFIX,//g; s/,DIRECT//g' Apple.txt
+        sed -i 's/DOMAIN-SUFFIX,//g; s/,DIRECT//g' Apple_no_cdn.txt
+        sed -i 's/server=\/\|\/114\.114\.114\.114//g' MyDirect.txt
         cat my_ad.txt >> Advertising.txt
+        cat MyDirect.txt Apple_no_cdn.txt >> whitelist.txt
         awk '!seen[$0]++' Advertising.txt > tmp && mv tmp Advertising.txt
+        awk '!seen[$0]++' whitelist.txt > tmp1 && mv tmp1 whitelist.txt
         
       # 提交修改并推送到仓库
     - name: Commit and push changes
@@ -37,6 +41,8 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git add Advertising.txt
-        git add Apple.txt
+        git add Apple_no_cdn.txt
+        git add MyDirect.txt
+        git add whitelist.txt
         git commit -m "Update file"
         git push
