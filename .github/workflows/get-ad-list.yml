@@ -20,14 +20,14 @@ jobs:
       run: |
         curl -o my_ad.txt https://raw.githubusercontent.com/Teacher-c/MosDNS_AD/refs/heads/main/MosDNS_Block.txt
         curl -o Advertising.txt https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/AdGuard/Advertising/Advertising.txt
-        curl -o Apple.txt https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Apple.list
+        curl -o Apple.txt https://raw.githubusercontent.com/Teacher-c/Qx/refs/heads/main/apple_no_cdn.list
     
     # 使用 sed 命令修改文件
     - name: Modify file
       run: |
         sed -i '/^[!#]/d; /^\s*$/d; s/||//g; s/\^//g' Advertising.txt
         sed -i '/^#/d' my_ad.txt
-        sed -i '/^#/d;/^IP-CIDR/d;s/^DOMAIN-SUFFIX,//;s/^DOMAIN,//' Apple.txt
+        sed -i 's/DOMAIN-SUFFIX,//g; s/,DIRECT//g' Apple.txt
         cat my_ad.txt >> Advertising.txt
         awk '!seen[$0]++' Advertising.txt > tmp && mv tmp Advertising.txt
         
