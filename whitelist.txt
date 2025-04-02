@@ -18,3 +18,9 @@ me.com
 appsto.re
 apple.co
 404: Not Found
+apple.comscoreresearch.com
+akadns.net
+apple.com.cn
+crashlytics.com
+icloud.com.cn
+mzstatic.com
