@@ -28,7 +28,7 @@ jobs:
     - name: Modify file
       run: |
         sed -i '/^[!#]/d; /^\s*$/d; s/||//g; s/\^//g' Advertising_tmp.txt my_ad.txt AdvertisingMiTV.txt
-        sed -i 's/server=\/\|\/114\.114\.114\.114//g' MyDirect.txt apple_simple.txt
+        sed -i 's/server=\/\|\/223\.5\.5\.5//g' MyDirect.txt apple_simple.txt
         cat my_ad.txt AdvertisingMiTV.txt Advertising_tmp.txt >> Advertising.txt
         cat MyDirect.txt >> whitelist.txt
         awk '!seen[$0]++' Advertising.txt > tmp && mv tmp Advertising.txt
