@@ -21,7 +21,7 @@ jobs:
         curl -o my_ad.txt https://raw.githubusercontent.com/Teacher-c/MosDNS_AD/refs/heads/main/MosDNS_Block.txt
         curl -o Advertising_tmp.txt https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/AdGuard/Advertising/Advertising.txt
         curl -o AdvertisingMiTV.txt https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/AdGuard/AdvertisingMiTV/AdvertisingMiTV.txt
-        curl -o apple_simple.txt https://raw.githubusercontent.com/Teacher-c/clash/refs/heads/main/apple_simple.conf
+        curl -o apple_simple.txt https://raw.githubusercontent.com/Teacher-c/clash/refs/heads/main/apple_domain_simple.conf
         curl -o MyDirect.txt https://raw.githubusercontent.com/Teacher-c/clash/refs/heads/main/MyDirect.conf
     
     # 使用 sed 命令修改文件
