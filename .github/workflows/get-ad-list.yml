@@ -29,10 +29,10 @@ jobs:
       run: |
         sed -i '/^[!#]/d; /^\s*$/d; s/||//g; s/\^//g' Advertising_tmp.txt my_ad.txt AdvertisingMiTV.txt
         sed -i 's/server=\/\|\/223\.5\.5\.5//g' MyDirect.txt apple_simple.txt
+        rm -rf Advertising.txt 
         cat my_ad.txt AdvertisingMiTV.txt Advertising_tmp.txt >> Advertising.txt
+        rm -rf whitelist.txt
         cat MyDirect.txt apple_simple.txt >> whitelist.txt
-        awk '!seen[$0]++' Advertising.txt > tmp && mv tmp Advertising.txt
-        awk '!seen[$0]++' whitelist.txt > tmp1 && mv tmp1 whitelist.txt
         rm -rf my_ad.txt Advertising_tmp.txt apple_simple.txt MyDirect.txt
         
       # 提交修改并推送到仓库
