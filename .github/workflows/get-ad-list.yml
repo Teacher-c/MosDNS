@@ -30,7 +30,7 @@ jobs:
         awk -F',' '{print $2}' apple_simple.txt >> tmp && mv tmp apple_simple.txt
         rm -rf Advertising.txt 
         cat my_ad.txt AdvertisingMiTV.txt Advertising_tmp.txt >> Advertising.txt
-        rm -rf my_ad.txt Advertising_tmp.txt AdvertisingMiTV.txt
+        rm -rf Advertising_tmp.txt AdvertisingMiTV.txt
         
       # 提交修改并推送到仓库
     - name: Commit and push changes
