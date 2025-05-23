@@ -22,7 +22,6 @@ jobs:
         curl -o Advertising_tmp.txt https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/AdGuard/Advertising/Advertising.txt
         curl -o AdvertisingMiTV.txt https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/AdGuard/AdvertisingMiTV/AdvertisingMiTV.txt
         curl -o apple_simple.txt https://raw.githubusercontent.com/Teacher-c/clash/refs/heads/main/apple_domain_simple.conf
-        curl -o MyDirect.txt https://raw.githubusercontent.com/Teacher-c/clash/refs/heads/main/MyDirect.conf
     
     # 使用 sed 命令修改文件
     - name: Modify file
@@ -31,9 +30,7 @@ jobs:
         sed -i 's/server=\/\|\/223\.5\.5\.5//g' MyDirect.txt apple_simple.txt
         rm -rf Advertising.txt 
         cat my_ad.txt AdvertisingMiTV.txt Advertising_tmp.txt >> Advertising.txt
-        rm -rf whitelist.txt
-        cat MyDirect.txt apple_simple.txt >> whitelist.txt
-        rm -rf my_ad.txt Advertising_tmp.txt AdvertisingMiTV.txt apple_simple.txt MyDirect.txt
+        rm -rf my_ad.txt Advertising_tmp.txt AdvertisingMiTV.txt apple_simple.txt
         
       # 提交修改并推送到仓库
     - name: Commit and push changes
