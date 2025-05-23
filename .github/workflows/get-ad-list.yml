@@ -33,7 +33,7 @@ jobs:
         cat my_ad.txt AdvertisingMiTV.txt Advertising_tmp.txt >> Advertising.txt
         rm -rf whitelist.txt
         cat MyDirect.txt apple_simple.txt >> whitelist.txt
-        rm -rf my_ad.txt Advertising_tmp.txt apple_simple.txt MyDirect.txt
+        rm -rf my_ad.txt Advertising_tmp.txt AdvertisingMiTV.txt apple_simple.txt MyDirect.txt
         
       # 提交修改并推送到仓库
     - name: Commit and push changes
