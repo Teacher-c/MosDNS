@@ -17,6 +17,17 @@ update.synology.com
 update7.synology.com
 autoupdate7.synology.com
 autoupdate7.synology.cn
+myparallels.com
+parallels.cn
+parallels.com
+parallels.de
+parallels.es
+parallels.fr
+parallels.nl
+parallels.pt
+parallels.ru
+parallelskorea.com
+parallels.com.cdn.cloudflare.net
 519332da.rtc.youme.im
 86file.megajoy.com
 86get.joy.cn
