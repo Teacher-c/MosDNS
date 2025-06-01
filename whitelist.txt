@@ -1,7 +1,13 @@
-luxury
+#机场
+x.luxury
 #小熊有好货
-xiaomanxiong.net
+imgcdn.xiaomanxiong.net 
+xapi.xiaomanxiong.net
 #东南微信公众号
-dongnan.guolianrobot.com
+www.dongnan.guolianrobot.com 
 #小青账
-bill.youqian.pro
+api.bill.youqian.pro
+#比亚迪海洋
+quicktracking-api.bydoceanauto.com
+tsp-matt-cn.byd.auto
+yunservice-cn.bydhaiyang.com
