@@ -7,7 +7,3 @@ xapi.xiaomanxiong.net
 www.dongnan.guolianrobot.com 
 #小青账
 api.bill.youqian.pro
-#比亚迪海洋
-quicktracking-api.bydoceanauto.com
-tsp-matt-cn.byd.auto
-yunservice-cn.bydhaiyang.com
