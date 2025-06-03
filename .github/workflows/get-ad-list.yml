@@ -15,20 +15,27 @@ jobs:
       uses: actions/checkout@v3
 
     # 拉取远程文件
-    - name: Download conf file
+    - name: Download conf files
       run: |
-        curl -o Advertising_tmp.txt https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/AdGuard/Advertising/Advertising.txt
-        curl -o AdvertisingMiTV.txt https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/AdGuard/AdvertisingMiTV/AdvertisingMiTV.txt
-    
+        curl -s -o Advertising_tmp.txt https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/AdGuard/Advertising/Advertising.txt
+        curl -s -o AdvertisingMiTV.txt https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/AdGuard/AdvertisingMiTV/AdvertisingMiTV.txt
+
     # 使用 sed 命令修改文件
-    - name: Modify file
+    - name: Modify and merge files
       run: |
-        cp my_ad.txt my_ad_tmp.txt
-        sed -i '/^[!#]/d; /^\s*$/d; s/||//g; s/\^//g' Advertising_tmp.txt my_ad_tmp.txt AdvertisingMiTV.txt
-        rm -rf Advertising.txt 
-        cat my_ad_tmp.txt AdvertisingMiTV.txt Advertising_tmp.txt >> Advertising.txt
-        rm -rf my_ad_tmp.txt Advertising_tmp.txt AdvertisingMiTV.txt
-        
+        cp -f my_ad.txt my_ad_tmp.txt
+
+        # 清理注释、空行，去除AdGuard特有格式
+        sed -i '/^[!#]/d; /^\s*$/d; s/||//g; s/\^//g' my_ad_tmp.txt
+        sed -i '/^[!#]/d; /^\s*$/d; s/||//g; s/\^//g' Advertising_tmp.txt
+        sed -i '/^[!#]/d; /^\s*$/d; s/||//g; s/\^//g' AdvertisingMiTV.txt
+
+        # 合并文件
+        cat my_ad_tmp.txt AdvertisingMiTV.txt Advertising_tmp.txt > Advertising.txt
+
+        # 清理临时文件（如存在）
+        rm -f my_ad_tmp.txt Advertising_tmp.txt AdvertisingMiTV.txt
+
       # 提交修改并推送到仓库
     - name: Commit and push changes
       run: |
