@@ -1,4 +1,4 @@
-name: get-ad-list
+name: Merge AD
 
 # 定义触发器，定期执行此工作流on:
   schedule:
