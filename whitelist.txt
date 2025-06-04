@@ -9,3 +9,5 @@ xiaomanxiong.net
 www.dongnan.guolianrobot.com 
 #小青账
 api.bill.youqian.pro
+#执业药师继续教育
+gzxy.xyyysp.com
