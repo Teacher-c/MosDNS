@@ -11,3 +11,5 @@ www.dongnan.guolianrobot.com
 api.bill.youqian.pro
 #执业药师继续教育
 gzxy.xyyysp.com
+gzadmin.xyyysp.com
+xyyysp.com
