@@ -24,18 +24,18 @@ jobs:
     # 使用 sed 命令修改文件
     - name: Modify and merge files
       run: |
-        cp -f blacklist.txt blacklist_tmp.txt
+        cp -f blocklist.txt blocklist_tmp.txt
 
         # 清理注释、空行，去除AdGuard特有格式
-        sed -i '/^[!#]/d; /^\s*$/d; s/||//g; s/\^//g' blacklist_tmp.txt
+        sed -i '/^[!#]/d; /^\s*$/d; s/||//g; s/\^//g' blocklist_tmp.txt
         sed -i '/^[!#]/d; /^\s*$/d; s/||//g; s/\^//g' Advertising_tmp.txt
         sed -i '/^[!#]/d; /^\s*$/d; s/||//g; s/\^//g' AdvertisingMiTV.txt
 
         # 合并文件
-        cat blacklist_tmp.txt AdvertisingMiTV.txt Advertising_tmp.txt > Advertising.txt
+        cat blocklist_tmp.txt AdvertisingMiTV.txt Advertising_tmp.txt > Advertising.txt
 
         # 清理临时文件（如存在）
-        rm -f blacklist_tmp.txt Advertising_tmp.txt AdvertisingMiTV.txt
+        rm -f blocklist_tmp.txt Advertising_tmp.txt AdvertisingMiTV.txt
 
       # 提交修改并推送到仓库
     - name: Commit and push changes
