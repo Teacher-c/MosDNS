@@ -1,6 +1,7 @@
-drive.wps.com
+sg-drive.wps.com
 androidweb.wps.com
-account.wps.com
+ai-sg.wps.com
+sg-account.wps.com
 hub5idx.v6.shub.sandai.net
 hub5emu.v6.shub.sandai.net
 hub5btmain.v6.shub.sandai.net
