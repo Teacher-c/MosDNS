@@ -1,3 +1,5 @@
+#google分析
+google-analytics.com
 #拦截WPS
 sg-drive.wps.com
 androidweb.wps.com
