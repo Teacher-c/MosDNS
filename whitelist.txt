@@ -14,7 +14,6 @@ gzxy.xyyysp.com
 gzadmin.xyyysp.com
 xyyysp.com
 #BYD
-yunservice-cn.bydhaiyang.com
 byd.auto
 byd.com
 bydauto.com
