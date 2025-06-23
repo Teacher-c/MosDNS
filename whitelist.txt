@@ -13,3 +13,15 @@ api.bill.youqian.pro
 gzxy.xyyysp.com
 gzadmin.xyyysp.com
 xyyysp.com
+#BYD
+yunservice-cn.bydhaiyang.com
+byd.auto
+byd.com
+bydauto.com
+bydfbj.com
+bydglobal.com
+bydhaiyang.com
+bydit.com
+bydmax.com
+bydoceanauto.com
+bydonline.com
