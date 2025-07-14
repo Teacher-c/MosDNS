@@ -33,4 +33,5 @@ widgetbox.top
 datafinder-rabbit.meitustat.com
 web-rabbit.meitustat.com
 meepo.meitustat.com
+gondar.meitustat.com
 meitustat.com
