@@ -25,7 +25,10 @@ bydmax.com
 bydoceanauto.com
 bydonline.com
 #小组件盒子
+widget-box-api.codefuture.top
+h5.widgetbox.top
 api.widgetbox.top
+widgetbox.top
 #美颜相机
 datafinder-rabbit.meitustat.com
 web-rabbit.meitustat.com
