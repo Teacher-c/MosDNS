@@ -35,3 +35,5 @@ web-rabbit.meitustat.com
 meepo.meitustat.com
 gondar.meitustat.com
 meitustat.com
+#抖音
+mssdk.snssdk.com
