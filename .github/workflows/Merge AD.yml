@@ -18,7 +18,7 @@ jobs:
     # 拉取远程文件
     - name: Download conf files
       run: |
-        curl -s -o Advertising_tmp.txt https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/AdGuard/Advertising/Advertising.txt
+        curl -s -o Advertising_tmp.txt https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/AdGuard/AdvertisingLite/AdvertisingLite.txt
         curl -s -o AdvertisingMiTV.txt https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/AdGuard/AdvertisingMiTV/AdvertisingMiTV.txt
 
     # 使用 sed 命令修改文件
