@@ -5683,6 +5683,7 @@ analyticsv2.dol.gr
 analyticswizard.com
 analytk.com
 analyze.full-marke.com
+analyzer51.fc2.com
 analyzer52.fc2.com
 anametrix.com
 anametrix.net
@@ -9426,6 +9427,7 @@ cloudcdn.gdn
 cloudcoins.co
 cloudflare.solutions
 cloudflareinsights.com
+cloudfront-labs.amazonaws.com
 cloudiiv.com
 cloudioo.net
 cloudmade.com
@@ -15484,6 +15486,7 @@ gnpecuwegllca.com
 gnpge.com
 gntzacjc.com
 gnuxgnnkflvkm.com
+go-mpulse.net
 go-quicky.com
 go.10086.cn
 go.bestmobiworld.com
@@ -15833,6 +15836,7 @@ gtnlyyxfhkjv.com
 gtnmyddlf.com
 gtop.ro
 gtopstats.com
+gtrk.s3.amazonaws.com
 gts-ads.twistbox.com
 gtsads.com
 gtsgdddss.com
@@ -31047,6 +31051,7 @@ stats.v.duowan.com
 stats.videodelivery.net
 stats.visistat.com
 stats.webstarts.com
+stats.wp.com
 stats.wwd.com
 stats.yinyuetai.com
 stats.ynet.co.il
@@ -32882,6 +32887,7 @@ trafficfacts.com
 trafficforce.com
 trafficformoney.com
 trafficfuel.com
+trafficfuelpixel.s3-us-west-2.amazonaws.com
 trafficgrowth.com
 traffichaus.com
 trafficholder.com
