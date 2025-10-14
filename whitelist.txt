@@ -1,7 +1,9 @@
 #衡水金卷
 hsjjlk.onlyets.com
+onlyets.com
 #HBB推送检测
 to.wcpush.top
+wcpush.top
 #机场
 x.luxury
 #小熊有好货
@@ -11,14 +13,17 @@ xmxcdn.xiaomanxiong.net
 xiaomanxiong.net
 #东南微信公众号
 www.dongnan.guolianrobot.com
+guolianrobot.com
 #小青账
 api.bill.youqian.pro
+youqian.pro
 #执业药师继续教育
 gzxy.xyyysp.com
 gzadmin.xyyysp.com
 xyyysp.com
 #粉笔？
 www.xinjiaoyu.com
+xinjiaoyu.com
 #BYD
 byd.auto
 byd.com
@@ -43,5 +48,6 @@ gondar.meitustat.com
 meitustat.com
 #抖音
 mssdk.snssdk.com
+snssdk.com
 #牛逼仓库
 #al.chirmyram.com
