@@ -1,3 +1,7 @@
+#衡水金卷
+hsjjlk.onlyets.com
+#HBB推送检测
+to.wcpush.top
 #机场
 x.luxury
 #小熊有好货
@@ -13,6 +17,8 @@ api.bill.youqian.pro
 gzxy.xyyysp.com
 gzadmin.xyyysp.com
 xyyysp.com
+#粉笔？
+www.xinjiaoyu.com
 #BYD
 byd.auto
 byd.com
@@ -39,9 +45,3 @@ meitustat.com
 mssdk.snssdk.com
 #牛逼仓库
 #al.chirmyram.com
-#粉笔？
-www.xinjiaoyu.com
-#衡水金卷
-hsjjlk.onlyets.com
-#HBB推送检测
-to.wcpush.top
