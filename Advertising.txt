@@ -405,7 +405,6 @@ file.daihuo.qq.com
 firebaselogging-pa.googleapis.com
 flurry.com
 frontend-perf-service.e.kuaishou.com
-fundingchoicesmessages.google.com
 fxgate.baidu.com
 g-adnet.hiaiabc.com
 g-staic.ganjingworld.com
@@ -10122,6 +10121,7 @@ counter.yesky.com
 counter.zerohedge.com
 counter.zone.ee
 counter160.com
+counter2.blog.livedoor.com
 counter2.condenast.it
 counter27.ch
 counterbot.com
@@ -11962,7 +11962,6 @@ dnvus.com
 dnyjhikistbhvg.com
 dnzevkqpk.com
 dnzwjlbknhe.com
-do-not-tracker.org
 do09.net
 do69ifsly4.me
 doa1.immobilier-neuf.com
@@ -13583,7 +13582,6 @@ evfzxjiqg.com
 evghlumwjasu.com
 evgywgur.com
 eviclick.pro
-eviltracker.net
 evisit.exeter.ac.uk
 evisitanalyst.com
 evlpfjro.com
@@ -25925,7 +25923,6 @@ pixel.naij.com
 pixel.newscgp.com
 pixel.newsdiscover.com.au
 pixel.pcworld.com
-pixel.propublica.org
 pixel.prosieben.de
 pixel.quantserve.com
 pixel.reddit.com
@@ -32823,7 +32820,6 @@ tracker.uprinting.com
 tracker.wordstream.com
 tracker.yhd.com
 trackercollect.ddxq.mobi
-trackersimulator.org
 trackerstatistik.init-ag.de
 trackertest.org
 trackfeed.com
