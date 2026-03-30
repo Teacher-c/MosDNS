@@ -48,7 +48,7 @@ jobs:
             Advertising_blackmatrix7.txt \
             | sort -u > Advertising.txt
         
-        rm -f blocklist_tmp.txt Advertising_AWAvenue-Ads-Rule.txt Advertising_blackmatrix7_*
+        rm -f blocklist_tmp.txt Advertising_AWAvenue-Ads-Rule.txt Advertising_blackmatrix7*
 
       # 提交修改并推送到仓库
     - name: Commit and push changes
