@@ -4933,6 +4933,7 @@ apextwo.com
 apfmwcktbj.com
 aphookkensidah.pro
 aphycolourses.info
+api-access.pangolin-sdk-toutiao-b.com
 api-access.pangolin-sdk-toutiao.com
 api-access.pangolin-sdk-toutiao1.com
 api-access.pangolin-sdk-toutiao2.com
@@ -22137,6 +22138,7 @@ mobile-pubt.ele.me
 mobile-service.segment.com
 mobile.banzai.it
 mobile.da.mgtv.com
+mobile.events.data.microsoft.com
 mobile.pipe.aria.microsoft.com
 mobilead.kuwo.cn
 mobileads.dx.cn
